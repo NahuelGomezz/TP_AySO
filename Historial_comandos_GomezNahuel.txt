@@ -179,3 +179,10 @@ pwd
 history -a
 ls -a
 ls -a ~
+cp ../../.bash_history Historial_comandos_GomezNahuel.txt
+git add Historial_comandos_GomezNahuel.txt 
+git commit -m "docs: Agregaod el historial de comandos"
+git status
+git push
+history
+history -a
